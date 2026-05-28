@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 10px 20px;
+}
+/* FIRST IMG STYLING */
+.first h1{
+  margin: 20px 0px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
+.img img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+/* PREPRATION TIME SECOND */
+.second{
+  background-color:hsl(330, 100%, 98%);
+  margin: 30px 0px;
+  padding: 30px;
+}
+.second h1{
+  color: hsl(332, 51%, 32%);
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin: 0px 0px;
+}
+.second ul span{
+  font-weight: 700;
+  margin: 0;
+}
+.second ul{
+  margin-left: 30px;
+}
+.second ul li{
+  margin:10px 0px;
+  padding-left: 15px;
+}
+.second ul li::marker{
+  color: hsl(332,51%,32%);
+  
+}
+/* INGREDIENTS SECTION THIRD */
+
+.third h1{
+  color: hsl(14, 45%, 36%);
+  margin: 20px 0px;
+  font-weight: 600;
+}
+.third ul li{
+  margin-left: 30px;
+}
+.third ul li::marker{
+  color: hsl(14, 45%, 36%);
+}
+.third ul li{
+  padding-left: 10px ;
+  margin-top: 10px;
+}
+hr{
+  margin-top: 30px;
+}
+
+/* INSTRUCTION SECTOIN FOURTH */
+
+.fourth h1{
+  margin: 25px 0px;
+  color:  hsl(14, 45%, 36%);
+}
+.fourth ol li::marker{
+  color:  hsl(14, 45%, 36%);
+}
+.fourth ol li{
+  padding-left: 10px;
+  margin-top: 15px;
+}
+.fourth ol{
+  margin-left: 30px;
+}
+.fourth ol li span{
+  font-weight: 700;
+  margin: 0px;
+}
+/* NUTRITION SECTION FIFTH*/
+.fifth h1{
+  margin: 30px 0px;
+  color:  hsl(14, 45%, 36%);
+}
+.fifth div{
+  margin: 20px 0px;
+  display: grid;
+  grid-template-columns: 50% 60%;
+  margin-left: 10px;
+}
+
+.line{
+  display: grid;
+  grid-column: 1/-1;
+  position: relative;
+  
+  border-bottom: 1px solid rgba(0,0,0,0.30);
+  right: 10%;
+  
+}
+.grams{
+  color:  hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+/* FOOTER  */
+footer {
+  margin: 30px 20px;
+}
+footer a{
+  text-decoration: none;
+}
+/* UNIVARSAL */
+p{
+  font-size: 16px;
+}
+html,body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+    }
+    main {
+        margin: 0px 30px;
+    }
+    .img img{
+      border-radius: 0px;
+    }
+    .line{
+      right:10%;
+    }
+}
